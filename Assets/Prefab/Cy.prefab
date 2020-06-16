@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 4574750997797283594}
   - component: {fileID: 4574750997797283595}
   - component: {fileID: 4574750997797283592}
+  - component: {fileID: 1610579326}
+  - component: {fileID: 1610579327}
   m_Layer: 0
-  m_Name: a
+  m_Name: Cy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,3 +96,31 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &1610579326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574750997797283593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4b4675371dbf94cbea5544bc51a4b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 2462364513374889434, guid: d62901f913de3fa46b8e9b99e3f27c2f,
+    type: 3}
+  spawnRateMin: 0.5
+  spawnRateMax: 3
+--- !u!114 &1610579327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574750997797283593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca34a0f017bbd084583f96e66cd25c3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
