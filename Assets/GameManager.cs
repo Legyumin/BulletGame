@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.R))
             {   
-                SceneManager.LoadScene("SampleScene");  
+                SceneManager.LoadScene("Cartoon Cat");  
                
             }
         }
