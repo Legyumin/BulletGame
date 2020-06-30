@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Bullet
     - BulletSpawner
     - GameManager
+    - LightEffects
     - PlayerController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -58,24 +59,30 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11150}
+      Script: {instanceID: 11154}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11314}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11736}
     - Class: 114
-      Script: {instanceID: 11804}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 12164}
+      Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12572}
+      Script: {instanceID: 12576}
     - Class: 114
-      Script: {instanceID: 12598}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 12852}
+      Script: {instanceID: 12856}
     - Class: 114
-      Script: {instanceID: 12948}
+      Script: {instanceID: 12952}
+    - Class: 114
+      Script: {instanceID: 20402}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 121
+      Script: {instanceID: 0}
+    - Class: 123
       Script: {instanceID: 0}
     - Class: 124
       Script: {instanceID: 0}
@@ -88,6 +95,8 @@ ScriptsOnlyBuild:
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 193
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -554,7 +563,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 629d9ee4ac77e2d683efecd84b1e8b57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightEffects
+  - hash:
+      serializedVersion: 2
+      Hash: 89f775a348245d6abf6ed367acdc59d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
   platform: 5
   scenePathNames:
   - Assets/Cartoon Cat/Cartoon Cat.unity
-  playerPath: C:/Users/user/Desktop/New Unity Project (2).exe
+  playerPath: "C:/Users/user/Desktop/30112_\uC774\uADDC\uBBFC/New Unity Project (2).exe"
